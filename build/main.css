@@ -1,23 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.produto {
+  padding: 10px 0px;
+  background-color: beige;
+}
+
+.produto button:hover {
+  background-color: #442929;
+}
+
 body {
-  background-color: #fff;
+  background-color: #442929;
 }
 
-header {
-  background-color: #ab8ccc;
-}
-header h1, header h2, header p {
+h1, h2, p {
   color: #ccc;
-}
-
-button {
-  padding: 8px;
-  background-color: #ab8ccc;
-}
-button:hover {
-  background-color: #ccc;
-}
-button.sucess {
-  background-color: green;
 }
 
 /*# sourceMappingURL=main.css.map */

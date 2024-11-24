@@ -1,31 +1,12 @@
-$backgroundColor: #fff;
-$textColor: #ccc;
-$PrimaryColor: #ab8ccc;
+@use 'config/reset';
+@use 'config/color';
+@use 'section/produtos';
+
 
 body {
-    background-color: $backgroundColor;
+    background-color: color.$background-color;
 }
 
-header {
-    background-color: $PrimaryColor;
-
-    h1, h2, p {
-        color: $textColor;
-    }
+h1, h2, p {
+    color: color.$text-color;
 }
-
-button {
-    padding: 8px;
-    background-color: $PrimaryColor;
-
-    &:hover {
-        background-color: $textColor;
-    }
-
-    &.sucess {
-        background-color: green;
-    }
-}
-
-
-
