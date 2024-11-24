@@ -1,3 +1,31 @@
+$backgroundColor: #fff;
+$textColor: #ccc;
+$PrimaryColor: #ab8ccc;
+
 body {
-    background-color: aqua;
+    background-color: $backgroundColor;
 }
+
+header {
+    background-color: $PrimaryColor;
+
+    h1, h2, p {
+        color: $textColor;
+    }
+}
+
+button {
+    padding: 8px;
+    background-color: $PrimaryColor;
+
+    &:hover {
+        background-color: $textColor;
+    }
+
+    &.sucess {
+        background-color: green;
+    }
+}
+
+
+

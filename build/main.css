@@ -1,5 +1,23 @@
 body {
-  background-color: aqua;
+  background-color: #fff;
+}
+
+header {
+  background-color: #ab8ccc;
+}
+header h1, header h2, header p {
+  color: #ccc;
+}
+
+button {
+  padding: 8px;
+  background-color: #ab8ccc;
+}
+button:hover {
+  background-color: #ccc;
+}
+button.sucess {
+  background-color: green;
 }
 
 /*# sourceMappingURL=main.css.map */
